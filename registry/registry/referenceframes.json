@@ -1,0 +1,224 @@
+[
+    {
+        "version" : 1,
+        "id": "ppspace",
+        "description": "Europe, legacy UTM33N planar reference frame (Seznam.cz 05)",
+
+        "model": {
+            "physicalSrs": "utm33n",
+            "navigationSrs": "utm33n",
+            "publicSrs": "geographic_wgs84_egm96"
+        },
+
+        "division": {
+            "extents" : {
+                "ll": [-3700000,1300000, -500], "ur": [4688608,9688608,7000] },
+            "heightRange": [-500,7000],
+            "rootLod": 0,
+            "arity": 4,
+            "nodes": [
+                {
+                    "id": { "lod": 0, "position": [0,0] },
+                    "srs": "utm33n",
+                    "extents": {
+                        "ll": [-3700000,1300000], "ur": [4688608,9688608] },
+                    "partitioning": "bisection"
+                }
+            ]
+        },
+
+        "parameters": {
+            "metaBinaryOrder": 5,
+            "navDelta": 8
+        }
+    },
+
+    {
+        "version" : 1,
+        "id": "webmerc_projected",
+        "description": "Earth, planar Pseudo/Web Mercator",
+
+        "model": {
+            "physicalSrs": "pseudomerc",
+            "navigationSrs": "pseudomerc",
+            "publicSrs": "geodetic_wgs84_egm96"
+        },
+
+        "division": {
+            "extents": {
+                "ll": [-20037508.342789,-20037508.342789,-500],
+                "ur": [20037508.342789,20037508.342789,25000] },
+            "heightRange": [500,25000],
+            "rootLod": 0,
+            "arity": 4,
+            "nodes": [
+                {
+                    "id": { "lod": 0, "position": [0,0] },
+                    "srs": "pseudomerc",
+                    "extents": {
+                        "ll": [-20037508.342789,-20037508.342789],
+                        "ur": [20037508.342789,20037508.342789] },
+                    "partitioning": "bisection"
+                }
+            ]
+        },
+
+        "parameters": {
+            "metaBinaryOrder": 5,
+            "navDelta": 8
+        }
+    },
+
+    {
+        "version" : 1,
+        "id": "webmerc_unprojected",
+        "description": "Earth, WGS84 spheroid based on Pseudo/Web Mercator",
+
+        "model": {
+            "physicalSrs": "geocentric_wgs84",
+            "navigationSrs": "geographic_wgs84",
+            "publicSrs": "geographic_wgs84_egm96"
+        },
+
+        "division": {
+            "extents" : {
+                "ll": [-7500000,-7500000,-7500000],
+                "ur": [7500000,7500000,7500000] },
+            "heightRange" : [-12500,9500],
+            "rootLod": 0,
+            "arity": 4,
+
+            "nodes": [
+                {
+                    "id": { "lod": 0, "position": [0,0] },
+                    "srs": "pseudomerc",
+                    "extents": {
+                        "ll": [-20037508.342789,-20037508.342789],
+                        "ur": [20037508.342789,20037508.342789] },
+                    "partitioning": "bisection"
+                }
+            ]
+        },
+
+        "parameters": {
+            "metaBinaryOrder": 5,
+            "navDelta": 8
+        }
+    },
+
+
+    {
+        "version" : 1,
+        "id": "melown2015",
+        "description": "Earth, global geographic reference frame (Melown 2015)",
+
+        "model": {
+            "physicalSrs": "geocentric_wgs84",
+            "navigationSrs": "geographic_wgs84",
+            "publicSrs": "geographic_wgs84_egm96"
+        },
+
+        "division": {
+            "extents": {
+                "ll": [-7500000,-7500000,-7500000],
+                "ur": [7500000,7500000,7500000] },
+            "heightRange": [-12000,9500],
+            "rootLod": 0,
+            "arity": 4,
+            "nodes": [
+                {
+                    "id": { "lod": 0, "position": [0,0] },
+                    "srs": "eqc_wgs84",
+                    "extents": {
+                        "ll": [-20037508.3428,-10018754.1714],
+                        "ur": [20037508.3428, 10018754.1714] },
+                    "partitioning": {
+                        "00" : {
+                            "ll": [-20037508.342789,-9467848.34716118],
+                            "ur": [20037508.342789,9467848.34716118] },
+                        "01" : {
+                            "ll": [-20037508.342789,9467848.34716118],
+                            "ur": [20037508.342789,10018754.1714] },
+                        "10" : {
+                            "ll": [-20037508.342789,-10018754.1714],
+                            "ur": [20037508.342789,-9467848.34716118] }
+                    }
+                },
+
+                {
+                    "id": { "lod": 1, "position": [0,0] },
+                    "srs": "pseudomerc",
+                    "extents": {
+                        "ll": [-20037508.342789,-20037508.342789],
+                        "ur": [20037508.342789,20037508.342789] },
+                    "partitioning": "bisection"
+                },
+
+                {
+                    "id": { "lod": 1, "position": [0,1] },
+                    "srs": "sterenorth_wgs84",
+                    "extents": {
+                        "ll": [1450229.398660,1450229.398660],
+                        "ur": [2549770.601340,2549770.601340]
+                    },
+                    "partitioning": "bisection"
+                },
+
+                {
+                    "id": { "lod": 1, "position": [1,0] },
+                    "srs": "steresouth_wgs84",
+                    "extents": {
+                        "ll": [1450229.398660,1450229.398660],
+                        "ur": [2549770.601340,2549770.601340]
+                    },
+                    "partitioning": "bisection"
+                }
+            ]
+        },
+
+
+        "parameters": {
+            "metaBinaryOrder": 5,
+            "navDelta": 8
+        }
+    },
+
+    {
+        "version" : 1,
+        "id": "mars_mpc",
+        "description": "Mars minus polar caps (85.1S to 85.1N)",
+
+        "model": {
+            "physicalSrs": "geocentric_dmars2000",
+            "navigationSrs": "geographic_dmars2000",
+            "publicSrs": "geographic_dmars2000"
+        },
+
+        "division": {
+
+            "extents" : {
+                "ll": [-350000,-350000,-3500000],
+                "ur": [3500000,3500000,3500000] },
+            "heightRange" : [-5000,30000],
+            "rootLod": 0,
+            "arity": 4,
+
+            "nodes": [
+                {
+                    "id": { "lod": 0, "position": [0,0] },
+                    "srs": "merc_dmars2000",
+                    "extents": {
+                        "ll": [-10669445.5541951,-10669445.5541951],
+                        "ur": [10669445.5541951,10669445.5541951] },
+                    "partitioning": "bisection"
+                }
+            ]
+        },
+
+        "parameters": {
+            "metaBinaryOrder": 5,
+            "navDelta": 8
+        }
+    }
+
+]
