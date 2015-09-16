@@ -1,11 +1,11 @@
 {
-    "1":   { "id": "citationtech", "notice": "Citationtech" },
-    "2":   { "id": "usgs", "notice": "USGS/NASA", "copyrighted": 0},
-    "3":   { "id": "osm", "notice": "OpenStreetMap contributors"},
-    "4":   { "id": "here", "notice": "HERE" },
-    "5":   { "id": "microsoft", "notice": "Microsoft Corporation" },
+    "citationtech": { "id": 1, "notice": "Citationtech" },
+    "usgs":         { "id": 2, "notice": "USGS/NASA", "copyrighted": false},
+    "osm":          { "id": 3, "notice": "OpenStreetMap contributors"},
+    "here":         { "id": 4, "notice": "HERE" },
+    "microsoft":    { "id": 5, "notice": "Microsoft Corporation" },
 
-    "100": { "id": "visionmap", "notice": "VisionMap, Ltd", "url": "http://www.visionmap.com/"},
-    "101": { "id": "interatlas", "notice": "INTERATLAS™, used by permission." },
-    "102": { "id": "fotomapy", "notice": "Fotomapy sp. z o.o." }
+    "visionmap":    { "id": 100, "notice": "VisionMap, Ltd", "url": "http://www.visionmap.com/"},
+    "interatlas":   { "id": 101, "notice": "INTERATLAS™, used by permission." },
+    "fotomapy":     { "id": 102, "notice": "Fotomapy sp. z o.o." }
 }
