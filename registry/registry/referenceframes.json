@@ -41,7 +41,7 @@
         "model": {
             "physicalSrs": "pseudomerc",
             "navigationSrs": "pseudomerc",
-            "publicSrs": "geodetic_wgs84_egm96"
+            "publicSrs": "geographic_wgs84_egm96"
         },
 
         "division": {
