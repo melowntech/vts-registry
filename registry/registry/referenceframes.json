@@ -55,7 +55,6 @@
                 {
                     "id": { "lod": 0, "position": [0,0] },
                     "srs": "pseudomerc",
-                    "boundLayerLod": 0,
                     "extents": {
                         "ll": [-20037508.342789,-20037508.342789],
                         "ur": [20037508.342789,20037508.342789] },
@@ -93,7 +92,6 @@
                 {
                     "id": { "lod": 0, "position": [0,0] },
                     "srs": "pseudomerc",
-                    "boundLayerLod": 0,
                     "extents": {
                         "ll": [-20037508.342789,-20037508.342789],
                         "ur": [20037508.342789,20037508.342789] },
@@ -150,7 +148,6 @@
                 {
                     "id": { "lod": 1, "position": [0,0] },
                     "srs": "pseudomerc",
-                    "boundLayerLod": 0,
                     "extents": {
                         "ll": [-20037508.342789,-20037508.342789],
                         "ur": [20037508.342789,20037508.342789] },
@@ -213,6 +210,74 @@
                     "extents": {
                         "ll": [-10669445.5541951,-10669445.5541951],
                         "ur": [10669445.5541951,10669445.5541951] },
+                    "partitioning": "bisection"
+                }
+            ]
+        },
+
+        "parameters": {
+            "metaBinaryOrder": 5,
+            "navDelta": 8
+        }
+    },
+
+    {
+        "version" : 1,
+        "id": "svy21",
+        "description": "Singapore and 4.7 deg surroundings, Local cadastre",
+
+        "model": {
+            "physicalSrs": "singapore_svy21",
+            "navigationSrs": "singapore_svy21",
+            "publicSrs": "geographic_wgs84_egm96"
+        },
+
+        "division": {
+            "extents" : {
+                "ll": [-496286.358, -485543.428, -500], "ur": [552289.642, 563032.572, 7000] },
+            "heightRange": [-500,7000],
+            "rootLod": 0,
+            "arity": 4,
+            "nodes": [
+                {
+                    "id": { "lod": 0, "position": [0,0] },
+                    "srs": "singapore_svy21",
+                    "extents": {
+                        "ll": [-496286.358, -485543.428], "ur": [552289.642, 563032.572] },
+                    "partitioning": "bisection"
+                }
+            ]
+        },
+
+        "parameters": {
+            "metaBinaryOrder": 5,
+            "navDelta": 8
+        }
+    },
+    
+    {
+        "version" : 1,
+        "id": "ppspace-utm11n",
+        "description": "UTM11N planar reference frame, ppspace equivalent for zone 11",
+
+        "model": {
+            "physicalSrs": "utm11n",
+            "navigationSrs": "utm11n",
+            "publicSrs": "geographic_wgs84_egm96"
+        },
+
+        "division": {
+            "extents" : {
+                "ll": [-3700000,1300000, -500], "ur": [4688608,9688608,7000] },
+            "heightRange": [-500,7000],
+            "rootLod": 0,
+            "arity": 4,
+            "nodes": [
+                {
+                    "id": { "lod": 0, "position": [0,0] },
+                    "srs": "utm11n",
+                    "extents": {
+                        "ll": [-3700000,1300000], "ur": [4688608,9688608] },
                     "partitioning": "bisection"
                 }
             ]
