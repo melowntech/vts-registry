@@ -1,104 +1,130 @@
 {
 
-    "geographic_wgs84": {
+    "geographic-wgs84": {
         "comment": "Geographic, WGS84 (epsg:4326)",
         "srsDef": "+proj=longlat +datum=WGS84 +no_defs",
-        "type": "geographic",
-        "spheroid": { "a": 6378137, "b": 6356752.3142 }
+        "type": "geographic"
     },
 
-    "geographic_wgs84_egm96": {
+    "geographic-wgs84-egm96": {
         "comment": "Geographic, WGS84 with EGM96 vertical (epsg:4326+5773)",
             "srsDef": "+proj=longlat +datum=WGS84 +geoidgrids=egm96_15.gtx +vunits=m +no_defs",
         "type": "geographic",
-        "spheroid": { "a": 6378137, "b": 6356752.3142 },
-        "vdatum": "orthometric",
-        "srsDefEllps": "+proj=longlat +datum=WGS84 +no_defs"
+        "geoidGrid": {
+            "extents": {"ll": [-180,-90], "ur": [180,90]},
+            "valueRange" : [-107, 85.4],
+            "definition": "geoidgrid/geographic-wgs84-egm96-geoidgrid.jpg",
+            "srsDefEllps": "+proj=longlat +datum=WGS84 +no_defs"
+        }
     },
 
-    "geocentric_wgs84": {
+    "geocentric-wgs84": {
         "comment": "Geocentric, WGS84 (epsg:4978)",
         "srsDef": "+proj=geocent +datum=WGS84 +units=m +no_defs",
         "type": "cartesian"
     },
 
     "utm33n": {
+        "comment": "Projected, UTM 33N",
+        "srsDef": "+proj=utm +zone=33 +datum=WGS84 +no_defs",
+        "type": "projected"
+    },
+
+    "utm33n-va": {
         "comment": "Projected, UTM 33N, vertical adjusted",
         "srsDef": "+proj=utm +zone=33 +datum=WGS84 +geoidgrids=egm96_15.gtx +vunits=m +no_defs",
         "srsModifiers": [ "adjustVertical" ],
         "type": "projected",
-        "vdatum" : "orthometric",
-        "srsDefEllps": "+proj=utm +zone=33 +datum=WGS84 +no_defs"
+        "geoidGrid": {
+            "extents": {"ll": [-2009979, 3000861], "ur": [2999421, 8260731]},
+            "valueRange": [-17.6, 67.3],
+            "definition": "geoidgrid/utm33n-va-geoidgrid.jpg",
+            "srsDefEllps" : "+proj=utm +zone=33 +datum=WGS84 +no_defs"
+        }
     },
 
     "pseudomerc": {
-        "comment": "Projected, Web/Pseudo Mecator (epsg:3857), vertical adjusted",
+        "comment": "Projected, Web/Pseudo Mecator (epsg:3857)",
         "srsDef": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
-        "srsModifiers": [ "adjustVertical" ],
         "type": "projected",
         "periodicity" : { "type" : "X", "period": 40075016.685578 }
     },
 
-    "geographic_sphere": {
-        "comment": "Geographic, popular sphere (epsg:4055)",
-        "srsDef": "+proj=longlat +a=6378137 +b=6378137 +towgs84=0,0,0,0,0,0,0 +no_defs",
-        "type": "geographic",
-        "spheroid" : { "a": 6378137, "b": 6378137 }
+    "pseudomerc-va": {
+        "comment": "Projected, Web/Pseudo Mecator (epsg:3857), vertical adjusted",
+        "srsDef": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs",
+        "type": "projected",
+        "periodicity" : { "type" : "X", "period": 40075016.685578 }
     },
 
-    "eqc_wgs84": {
+    "geographic-sphere": {
+        "comment": "Geographic, popular sphere (epsg:4055)",
+        "srsDef": "+proj=longlat +a=6378137 +b=6378137 +towgs84=0,0,0,0,0,0,0 +no_defs",
+        "type": "geographic"
+    },
+
+    "eqc-wgs84": {
         "comment": "Projected, World equidistant cylindrical (epsg:32663)",
         "srsDef": "+proj=eqc +lat_ts=0 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs",
         "type": "projected"
     },
 
-    "steren_wgs84": {
+    "steren-wgs84": {
         "comment": "Projected, UPS north (epsg:32661)",
         "srsDef": "+proj=stere +lat_0=90 +lat_ts=90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs",
         "type": "projected"
     },
 
-    "steres_wgs84": {
+    "steres-wgs84": {
         "comment": "Projected, UPS south (epsg:32761)",
         "srsDef": "+proj=stere +lat_0=-90 +lat_ts=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs",
         "type": "projected"
     },
 
-    "geographic_dmars2000": {
+    "geographic-dmars2000": {
         "comment": "Geographic, DMars2000 (iau2000:49970)",
         "srsDef": "+proj=longlat +a=3396190 +b=3376200 +no_defs",
-        "type": "geographic",
-        "spheroid" : { "a": 3396190, "b": 3376200 }
+        "type": "geographic"
     },
 
-    "merc_dmars2000": {
+    "merc-dmars2000": {
         "comment": "Projected, Mercator, Mars (iau2000:49974)",
         "srsDef": "+proj=merc +lon_0=0 +k=1 +x_0=0 +y_0=0 +a=3396190 +b=3376200 +units=m +no_defs",
         "srsModifiers": [ "adjustVertical" ],
         "type": "projected"
     },
 
-    "geocentric_dmars2000": {
+    "geocentric-dmars2000": {
         "comment": "Geocentric, Mars",
         "srsDef": "+proj=geocent +a=3396190 +b=3376200 +lon_0=0 +units=m +no_defs",
         "type": "cartesian"
     },
 
-    "singapore_svy21": {
+    "singapore-svy21-va": {
         "comment": "Projected, Transverse Mercator, Singapore (EPSG:3414), vertical adjusted",
         "srsDef": "+proj=tmerc +lat_0=1.366666666666667 +lon_0=103.8333333333333 +k=1 +x_0=28001.642 +y_0=38744.572 +ellps=WGS84 +units=m +no_defs",
         "srsModifiers": [ "adjustVertical" ],
-        "type": "projected",
-        "srsDefEllps": "+proj=tmerc +lat_0=1.366666666666667 +lon_0=103.8333333333333 +k=1 +x_0=28001.642 +y_0=38744.572 +ellps=WGS84 +units=m +no_defs"
+        "type": "projected"
+    },
+
+    "singapore-svy21": {
+        "comment": "Projected, Transverse Mercator, Singapore (EPSG:3414)",
+        "srsDef": "+proj=tmerc +lat_0=1.366666666666667 +lon_0=103.8333333333333 +k=1 +x_0=28001.642 +y_0=38744.572 +ellps=WGS84 +units=m +no_defs",
+        "srsModifiers": [ "adjustVertical" ],
+        "type": "projected"
+    },
+
+    "utm11n-va": {
+        "comment": "Projected, UTM 11N, vertical adjusted",
+        "srsDef": "+proj=utm +zone=11 +datum=WGS84 +no_defs",
+        "srsModifiers": [ "adjustVertical" ],
+        "type": "projected"
     },
 
     "utm11n": {
-        "comment": "Projected, UTM 11N, vertical adjusted",
-        "srsDef": "+proj=utm +zone=11 +datum=WGS84 +geoidgrids=egm96_15.gtx +vunits=m +no_defs",
-        "srsModifiers": [ "adjustVertical" ],
-        "type": "projected",
-        "vdatum" : "orthometric",
-        "srsDefEllps": "+proj=utm +zone=11 +datum=WGS84 +no_defs"
+        "comment": "Projected, UTM 11N",
+        "srsDef": "+proj=utm +zone=11 +datum=WGS84 +no_defs",
+        "type": "projected"
     }
 
 }

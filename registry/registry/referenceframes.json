@@ -5,17 +5,15 @@
         "description": "Europe, legacy UTM33N planar reference frame (Seznam.cz 05)",
 
         "model": {
-            "physicalSrs": "utm33n",
-            "navigationSrs": "utm33n",
-            "publicSrs": "geographic_wgs84_egm96"
+            "physicalSrs": "utm33n-va",
+            "navigationSrs": "utm33n-va",
+            "publicSrs": "geographic-wgs84-egm96"
         },
 
         "division": {
             "extents" : {
                 "ll": [-3700000,1300000, -500], "ur": [4688608,9688608,7000] },
             "heightRange": [-500,7000],
-            "rootLod": 0,
-            "arity": 4,
             "nodes": [
                 {
                     "id": { "lod": 0, "position": [0,0] },
@@ -28,20 +26,19 @@
         },
 
         "parameters": {
-            "metaBinaryOrder": 5,
-            "navDelta": 8
+            "metaBinaryOrder": 5
         }
     },
 
     {
         "version" : 1,
-        "id": "webmerc_projected",
+        "id": "webmerc-projected",
         "description": "Earth, planar Pseudo/Web Mercator",
 
         "model": {
-            "physicalSrs": "pseudomerc",
-            "navigationSrs": "pseudomerc",
-            "publicSrs": "geographic_wgs84_egm96"
+            "physicalSrs": "pseudomerc-va",
+            "navigationSrs": "pseudomerc-va",
+            "publicSrs": "geographic-wgs84-egm96"
         },
 
         "division": {
@@ -49,8 +46,6 @@
                 "ll": [-20037508.342789,-20037508.342789,-500],
                 "ur": [20037508.342789,20037508.342789,25000] },
             "heightRange": [500,25000],
-            "rootLod": 0,
-            "arity": 4,
             "nodes": [
                 {
                     "id": { "lod": 0, "position": [0,0] },
@@ -64,20 +59,19 @@
         },
 
         "parameters": {
-            "metaBinaryOrder": 5,
-            "navDelta": 8
+            "metaBinaryOrder": 5
         }
     },
 
     {
         "version" : 1,
-        "id": "webmerc_unprojected",
+        "id": "webmerc-unprojected",
         "description": "Earth, WGS84 spheroid based on Pseudo/Web Mercator",
 
         "model": {
-            "physicalSrs": "geocentric_wgs84",
-            "navigationSrs": "geographic_wgs84",
-            "publicSrs": "geographic_wgs84_egm96"
+            "physicalSrs": "geocentric-wgs84",
+            "navigationSrs": "geographic-wgs84",
+            "publicSrs": "geographic-wgs84-egm96"
         },
 
         "division": {
@@ -85,9 +79,6 @@
                 "ll": [-7500000,-7500000,-7500000],
                 "ur": [7500000,7500000,7500000] },
             "heightRange" : [-12500,9500],
-            "rootLod": 0,
-            "arity": 4,
-
             "nodes": [
                 {
                     "id": { "lod": 0, "position": [0,0] },
@@ -101,8 +92,7 @@
         },
 
         "parameters": {
-            "metaBinaryOrder": 5,
-            "navDelta": 8
+            "metaBinaryOrder": 5
         }
     },
 
@@ -113,9 +103,9 @@
         "description": "Earth, global geographic reference frame (Melown 2015)",
 
         "model": {
-            "physicalSrs": "geocentric_wgs84",
-            "navigationSrs": "geographic_wgs84",
-            "publicSrs": "geographic_wgs84_egm96"
+            "physicalSrs": "geocentric-wgs84",
+            "navigationSrs": "geographic-wgs84",
+            "publicSrs": "geographic-wgs84-egm96"
         },
 
         "division": {
@@ -123,8 +113,6 @@
                 "ll": [-7500000,-7500000,-7500000],
                 "ur": [7500000,7500000,7500000] },
             "heightRange": [-12000,9500],
-            "rootLod": 0,
-            "arity": 4,
             "nodes": [
                 {
                     "id": { "lod": 0, "position": [0,0] },
@@ -156,7 +144,7 @@
 
                 {
                     "id": { "lod": 1, "position": [0,1] },
-                    "srs": "sterenorth_wgs84",
+                    "srs": "sterenorth-wgs84",
                     "extents": {
                         "ll": [1450229.398660,1450229.398660],
                         "ur": [2549770.601340,2549770.601340]
@@ -166,7 +154,7 @@
 
                 {
                     "id": { "lod": 1, "position": [1,0] },
-                    "srs": "steresouth_wgs84",
+                    "srs": "steresouth-wgs84",
                     "extents": {
                         "ll": [1450229.398660,1450229.398660],
                         "ur": [2549770.601340,2549770.601340]
@@ -178,8 +166,7 @@
 
 
         "parameters": {
-            "metaBinaryOrder": 5,
-            "navDelta": 8
+            "metaBinaryOrder": 5
         }
     },
 
@@ -200,9 +187,6 @@
                 "ll": [-350000,-350000,-3500000],
                 "ur": [3500000,3500000,3500000] },
             "heightRange" : [-5000,30000],
-            "rootLod": 0,
-            "arity": 4,
-
             "nodes": [
                 {
                     "id": { "lod": 0, "position": [0,0] },
@@ -216,8 +200,7 @@
         },
 
         "parameters": {
-            "metaBinaryOrder": 5,
-            "navDelta": 8
+            "metaBinaryOrder": 5
         }
     },
 
@@ -227,21 +210,19 @@
         "description": "Singapore and 4.7 deg surroundings, Local cadastre",
 
         "model": {
-            "physicalSrs": "singapore_svy21",
-            "navigationSrs": "singapore_svy21",
-            "publicSrs": "geographic_wgs84_egm96"
+            "physicalSrs": "singapore-svy21-va",
+            "navigationSrs": "singapore-svy21-va",
+            "publicSrs": "geographic-wgs84-egm96"
         },
 
         "division": {
             "extents" : {
                 "ll": [-496286.358, -485543.428, -500], "ur": [552289.642, 563032.572, 7000] },
             "heightRange": [-500,7000],
-            "rootLod": 0,
-            "arity": 4,
             "nodes": [
                 {
                     "id": { "lod": 0, "position": [0,0] },
-                    "srs": "singapore_svy21",
+                    "srs": "singapore-svy21",
                     "extents": {
                         "ll": [-496286.358, -485543.428], "ur": [552289.642, 563032.572] },
                     "partitioning": "bisection"
@@ -250,19 +231,18 @@
         },
 
         "parameters": {
-            "metaBinaryOrder": 5,
-            "navDelta": 8
+            "metaBinaryOrder": 5
         }
     },
-    
+
     {
         "version" : 1,
         "id": "ppspace-utm11n",
         "description": "UTM11N planar reference frame, ppspace equivalent for zone 11",
 
         "model": {
-            "physicalSrs": "utm11n",
-            "navigationSrs": "utm11n",
+            "physicalSrs": "utm11n-va",
+            "navigationSrs": "utm11n-va",
             "publicSrs": "geographic_wgs84_egm96"
         },
 
@@ -270,8 +250,6 @@
             "extents" : {
                 "ll": [-3700000,1300000, -500], "ur": [4688608,9688608,7000] },
             "heightRange": [-500,7000],
-            "rootLod": 0,
-            "arity": 4,
             "nodes": [
                 {
                     "id": { "lod": 0, "position": [0,0] },
@@ -284,8 +262,7 @@
         },
 
         "parameters": {
-            "metaBinaryOrder": 5,
-            "navDelta": 8
+            "metaBinaryOrder": 5
         }
     }
 
