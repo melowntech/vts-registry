@@ -1,0 +1,2 @@
+registry/*.json /opt/vadstena/etc/vadstena-registry
+registry/geoidgrid/*.jpg /opt/vadstena/etc/vadstena-registry/geoidgrid

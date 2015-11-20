@@ -1,0 +1,2 @@
+registry/*.json /opt/vts/etc/registry
+registry/geoidgrid/*.jpg /opt/vts/etc/registry/geoidgrid
