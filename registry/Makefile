@@ -1,1 +1,0 @@
-buildsys/common/common.mk
