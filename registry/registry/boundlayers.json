@@ -3,18 +3,16 @@
         "id" : 100,
         "type" : "raster",
         "url" : "https://1.aerial.maps.cit.api.here.com/maptile/maptile/newest/satellite.day/{lod}/{x}/{y}/256/png8?app_id={here_app_id}&app_code={here_app_code}",
-        "tileSize" : [256,256],
         "lodRange" : [0,18],
         "tileRange" : [[0,0],[0,0]],
-            "credits" : [ "here" ]
+        "credits" : [ "here" ]
     },
     "microsoftsat": {
         "id" : 110,
         "type" : "raster",
-        "tileSize" : [256,256],
         "url" : "http://ecn.t{ms_digit(x,y)}.tiles.virtualearth.net/tiles/a{quad(lod,x,y)}.jpeg?g=441&mkt=en-us&n=z",
         "lodRange" : [0,21],
-            "tileRange" : [[0,0],[0,0]],
+        "tileRange" : [[0,0],[0,0]],
         "credits" : [ "microsoft" ]
     }
 }
