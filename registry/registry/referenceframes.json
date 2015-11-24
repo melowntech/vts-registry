@@ -50,7 +50,7 @@
                 {
                     "id": { "lod": 0, "position": [0,0] },
                     "srs": "pseudomerc",
-                    "boundLayerLod": 0,
+                    "externalTexture": true,
                     "extents": {
                         "ll": [-20037508.342789,-20037508.342789],
                         "ur": [20037508.342789,20037508.342789] },
@@ -84,7 +84,7 @@
                 {
                     "id": { "lod": 0, "position": [0,0] },
                     "srs": "pseudomerc",
-                    "boundLayerLod": 0,
+                    "externalTexture": true,
                     "extents": {
                         "ll": [-20037508.342789,-20037508.342789],
                         "ur": [20037508.342789,20037508.342789] },
@@ -138,7 +138,7 @@
                 {
                     "id": { "lod": 1, "position": [0,0] },
                     "srs": "pseudomerc",
-                    "boundLayerLod": 0,
+                    "externalTexture": true,
                     "extents": {
                         "ll": [-20037508.342789,-20037508.342789],
                         "ur": [20037508.342789,20037508.342789] },
