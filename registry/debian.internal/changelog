@@ -1,3 +1,9 @@
+ctt-vts-registry (1.1) citationtech-wheezy; urgency=low
+
+  * Added referenceframe.boundLayerLod back.
+
+ -- Vaclav Blazek <vaclav.blazek@citationtech.net>  Tue, 24 Nov 2015 16:23:40 +0100
+
 ctt-vts-registry (1.0) citationtech-wheezy; urgency=low
 
   * Converted from vadstena package
