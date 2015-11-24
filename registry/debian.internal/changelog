@@ -1,3 +1,9 @@
+ctt-vts-registry (1.2) citationtech-wheezy; urgency=low
+
+  * boundLayer -> externalTexture
+
+ -- Vaclav Blazek <vaclav.blazek@citationtech.net>  Tue, 24 Nov 2015 18:19:14 +0100
+
 ctt-vts-registry (1.1) citationtech-wheezy; urgency=low
 
   * Added referenceframe.boundLayerLod back.
