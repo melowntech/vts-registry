@@ -14,7 +14,7 @@
         "lodRange" : [0,21],
         "tileRange" : [[0,0],[0,0]],
         "credits" : [ "microsoft" ]
-    }
+    },
 
     "mapycz": {
         "id" : 120,
@@ -23,8 +23,7 @@
         "lodRange" : [0,20],
         "tileRange" : [[0,0],[0,0]],
         "credits" : [ "seznamcz" ]
-    }
-
+    },
     "mapycz-pp": {
         "id" : 121,
         "type" : "raster",
