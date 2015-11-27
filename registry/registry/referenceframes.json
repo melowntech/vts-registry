@@ -18,6 +18,7 @@
                 {
                     "id": { "lod": 0, "position": [0,0] },
                     "srs": "utm33n",
+                    "externalTexture": true,
                     "extents": {
                         "ll": [-3700000,1300000], "ur": [4688608,9688608] },
                     "partitioning": "bisection"

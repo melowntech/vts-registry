@@ -15,4 +15,23 @@
         "tileRange" : [[0,0],[0,0]],
         "credits" : [ "microsoft" ]
     }
+
+    "mapycz": {
+        "id" : 120,
+        "type" : "raster",
+        "url" : "http://m{alt(1,2,3,4)}.mapserver.mapy.cz/ophoto-m/{lod}-{x}-{y}",
+        "lodRange" : [0,20],
+        "tileRange" : [[0,0],[0,0]],
+        "credits" : [ "seznamcz" ]
+    }
+
+    "mapycz-pp": {
+        "id" : 121,
+        "type" : "raster",
+        "url" : "http://m{alt(1,2,3,4)}.mapserver.mapy.cz/ophoto/{lod}_{ppx(lod, x)}_{ppy(lod, y)}",
+        "lodRange" : [3,18],
+        "tileRange" : [[1,1],[6,6]],
+        "credits" : [ "seznamcz" ]
+    }
+
 }
