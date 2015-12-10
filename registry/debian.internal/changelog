@@ -1,3 +1,9 @@
+ctt-vts-registry (1.5) citationtech-wheezy; urgency=low
+
+  * Fixed pseudomerc-va
+
+ -- Vaclav Blazek <vaclav.blazek@citationtech.net>  Thu, 10 Dec 2015 10:11:12 +0100
+
 ctt-vts-registry (1.4) citationtech-wheezy; urgency=low
 
   * Updated Seznam.cz stuff
