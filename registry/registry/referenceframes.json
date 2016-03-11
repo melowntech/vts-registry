@@ -148,7 +148,7 @@
 
                 {
                     "id": { "lod": 1, "position": [0,1] },
-                    "srs": "sterenorth-wgs84",
+                    "srs": "steren-wgs84",
                     "extents": {
                         "ll": [278600,278600],
                         "ur": [3721400,3721400]
@@ -158,7 +158,7 @@
 
                 {
                     "id": { "lod": 1, "position": [1,0] },
-                    "srs": "steresouth-wgs84",
+                    "srs": "steres-wgs84",
                     "extents": {
                         "ll": [278600,278600],
                         "ur": [3721400,3721400]
