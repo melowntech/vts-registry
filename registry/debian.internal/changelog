@@ -1,3 +1,9 @@
+ctt-vts-registry (1.6) citationtech-wheezy; urgency=low
+
+  * Fixed melown2015
+
+ -- Vaclav Blazek <vaclav.blazek@citationtech.net>  Fri, 11 Mar 2016 15:55:18 +0100
+
 ctt-vts-registry (1.5) citationtech-wheezy; urgency=low
 
   * Fixed pseudomerc-va
