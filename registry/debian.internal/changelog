@@ -1,3 +1,9 @@
+ctt-vts-registry (1.7) citationtech-wheezy; urgency=low
+
+  * melown2015 reference frame: a bit large horizontal extents in manual division
+
+ -- Vaclav Blazek <vaclav.blazek@citationtech.net>  Wed, 16 Mar 2016 16:41:22 +0100
+
 ctt-vts-registry (1.6) citationtech-wheezy; urgency=low
 
   * Fixed melown2015
