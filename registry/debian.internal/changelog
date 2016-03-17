@@ -1,3 +1,9 @@
+ctt-vts-registry (1.8) citationtech-wheezy; urgency=low
+
+  * Fixed webmerc extents in melown2015.
+
+ -- Vaclav Blazek <vaclav.blazek@citationtech.net>  Thu, 17 Mar 2016 17:16:35 +0100
+
 ctt-vts-registry (1.7) citationtech-wheezy; urgency=low
 
   * melown2015 reference frame: a bit large horizontal extents in manual division
