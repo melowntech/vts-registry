@@ -99,7 +99,6 @@
         }
     },
 
-
     {
         "version" : 1,
         "id": "melown2015",
@@ -176,13 +175,92 @@
 
     {
         "version" : 1,
+        "id": "earth-qsc",
+        "description": "Earth, WGS84 based quadrilateralized spherical cube",
+
+        "model": {
+            "physicalSrs": "geocentric-wgs84",
+            "navigationSrs": "geographic-wgs84",
+            "publicSrs": "geographic-wgs84-egm96"
+        },
+
+        "division": {
+            "extents" : {
+                "ll": [-7500000,-7500000,-7500000],
+                "ur": [7500000,7500000,7500000] },
+            "heightRange" : [-12500,9500],
+            "nodes": [
+                {
+                    "id": { "lod": 2, "position": [1,1] },
+                    "srs": "qsc-front-wgs84",
+                    "extents": {
+                        "ll": [-6378137,-6378137],
+                        "ur": [6378137,6378137] },
+                    "partitioning": "bisection",
+                    "externalTexture": true,
+                },
+                {
+                    "id": { "lod": 2, "position": [2,1] },
+                    "srs": "qsc-right-wgs84",
+                    "extents": {
+                        "ll": [-6378137,-6378137],
+                        "ur": [6378137,6378137] },
+                    "partitioning": "bisection",
+                    "externalTexture": true,
+                },
+                {
+                    "id": { "lod": 2, "position": [3,1] },
+                    "srs": "qsc-back-wgs84",
+                    "extents": {
+                        "ll": [-6378137,-6378137],
+                        "ur": [6378137,6378137] },
+                    "partitioning": "bisection",
+                    "externalTexture": true,
+                },
+                {
+                    "id": { "lod": 2, "position": [0,1] },
+                    "srs": "qsc-left-wgs84",
+                    "extents": {
+                        "ll": [-6378137,-6378137],
+                        "ur": [6378137,6378137] },
+                    "partitioning": "bisection",
+                    "externalTexture": true,
+                },
+                {
+                    "id": { "lod": 2, "position": [1,0] },
+                    "srs": "qsc-top-wgs84",
+                    "extents": {
+                        "ll": [-6378137,-6378137],
+                        "ur": [6378137,6378137] },
+                    "partitioning": "bisection",
+                    "externalTexture": true,
+                },
+                {
+                    "id": { "lod": 2, "position": [1,2] },
+                    "srs": "qsc-bottom-wgs84",
+                    "extents": {
+                        "ll": [-6378137,-6378137],
+                        "ur": [6378137,6378137] },
+                    "partitioning": "bisection",
+                    "externalTexture": true,
+                }
+            ]
+        },
+
+        "parameters": {
+            "metaBinaryOrder": 5
+        }
+    },
+
+    {
+        "version" : 1,
         "id": "mars_mpc",
         "description": "Mars minus polar caps (85.1S to 85.1N)",
 
         "model": {
-            "physicalSrs": "geocentric_dmars2000",
-            "navigationSrs": "geographic_dmars2000",
-            "publicSrs": "geographic_dmars2000"
+            "physicalSrs": "geocentric-dmars2000",
+            "navigationSrs": "geographic-dmars2000",
+            "publicSrs": "geographic-dmars2000"
         },
 
         "division": {
@@ -194,11 +272,90 @@
             "nodes": [
                 {
                     "id": { "lod": 0, "position": [0,0] },
-                    "srs": "merc_dmars2000",
+                    "srs": "merc-dmars2000",
                     "extents": {
                         "ll": [-10669445.5541951,-10669445.5541951],
                         "ur": [10669445.5541951,10669445.5541951] },
                     "partitioning": "bisection"
+                }
+            ]
+        },
+
+        "parameters": {
+            "metaBinaryOrder": 5
+        }
+    },
+
+    {
+        "version" : 1,
+        "id": "mars-qsc",
+        "description": "Mars, D_MARS_2000 based quadrilateralized spherical cube",
+
+        "model": {
+            "physicalSrs": "geocentric-dmars2000",
+            "navigationSrs": "geographic-dmars2000",
+            "publicSrs": "geographic-dmars2000"
+        },
+
+        "division": {
+            "extents" : {
+                "ll": [-7500000,-7500000,-7500000],
+                "ur": [7500000,7500000,7500000] },
+            "heightRange" : [-12500,9500],
+            "nodes": [
+                {
+                    "id": { "lod": 2, "position": [1,1] },
+                    "srs": "qsc-front-dmars2000",
+                    "extents": {
+                        "ll": [-3396190,-3396190],
+                        "ur": [3396190,3396190] },
+                    "partitioning": "bisection",
+                    "externalTexture": true,
+                },
+                {
+                    "id": { "lod": 2, "position": [2,1] },
+                    "srs": "qsc-right-dmars2000",
+                    "extents": {
+                        "ll": [-3396190,-3396190],
+                        "ur": [3396190,3396190] },
+                    "partitioning": "bisection",
+                    "externalTexture": true,
+                },
+                {
+                    "id": { "lod": 2, "position": [3,1] },
+                    "srs": "qsc-back-dmars2000",
+                    "extents": {
+                        "ll": [-3396190,-3396190],
+                        "ur": [3396190,3396190] },
+                    "partitioning": "bisection",
+                    "externalTexture": true,
+                },
+                {
+                    "id": { "lod": 2, "position": [0,1] },
+                    "srs": "qsc-left-dmars2000",
+                    "extents": {
+                        "ll": [-3396190,-3396190],
+                        "ur": [3396190,3396190] },
+                    "partitioning": "bisection",
+                    "externalTexture": true,
+                },
+                {
+                    "id": { "lod": 2, "position": [1,0] },
+                    "srs": "qsc-top-dmars2000",
+                    "extents": {
+                        "ll": [-3396190,-3396190],
+                        "ur": [3396190,3396190] },
+                    "partitioning": "bisection",
+                    "externalTexture": true,
+                },
+                {
+                    "id": { "lod": 2, "position": [1,2] },
+                    "srs": "qsc-bottom-dmars2000",
+                    "extents": {
+                        "ll": [-3396190,-3396190],
+                        "ur": [3396190,3396190] },
+                    "partitioning": "bisection",
+                    "externalTexture": true,
                 }
             ]
         },
