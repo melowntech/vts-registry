@@ -84,37 +84,37 @@
 
     "qsc-front-wgs84": {
     	"comment": "Projected, Quadrilateralized Spherical Cube on WGS84, front",
-        "srsDef": "+proj=qsc +units=m +datum=WGS84 +lat_0=0 +lon_0=0 +wktext"
+        "srsDef": "+proj=qsc +units=m +datum=WGS84 +lat_0=0 +lon_0=0 +wktext",
         "type": "projected"
     },
 
     "qsc-right-wgs84": {
     	"comment": "Projected, Quadrilateralized Spherical Cube on WGS84, right",
-        "srsDef": "+proj=qsc +units=m +datum=WGS84 +lat_0=0 +lon_0=90 +wktext"
+        "srsDef": "+proj=qsc +units=m +datum=WGS84 +lat_0=0 +lon_0=90 +wktext",
         "type": "projected"
     },
 
     "qsc-back-wgs84": {
     	"comment": "Projected, Quadrilateralized Spherical Cube on WGS84, back",
-        "srsDef": "+proj=qsc +units=m +datum=WGS84 +lat_0=0 +lon_0=180 +wktext"
+        "srsDef": "+proj=qsc +units=m +datum=WGS84 +lat_0=0 +lon_0=180 +wktext",
         "type": "projected"
     },
 
     "qsc-left-wgs84": {
     	"comment": "Projected, Quadrilateralized Spherical Cube on WGS84, left",
-        "srsDef": "+proj=qsc +units=m +datum=WGS84 +lat_0=0 +lon_0=-90 +wktext"
+        "srsDef": "+proj=qsc +units=m +datum=WGS84 +lat_0=0 +lon_0=-90 +wktext",
         "type": "projected"
     },
 
     "qsc-top-wgs84": {
     	"comment": "Projected, Quadrilateralized Spherical Cube on WGS84, top",
-        "srsDef": "+proj=qsc +units=m +datum=WGS84 +lat_0=90 +lon_0=0 +wktext"
+        "srsDef": "+proj=qsc +units=m +datum=WGS84 +lat_0=90 +lon_0=0 +wktext",
         "type": "projected"
     },
 
     "qsc-bottom-wgs84": {
     	"comment": "Projected, Quadrilateralized Spherical Cube on WGS84, bottom",
-        "srsDef": "+proj=qsc +units=m +datum=WGS84 +lat_0=-90 +lon_0=0 +wktext"
+        "srsDef": "+proj=qsc +units=m +datum=WGS84 +lat_0=-90 +lon_0=0 +wktext",
         "type": "projected"
     },
 
@@ -139,37 +139,37 @@
 
     "qsc-front-dmars2000": {
     	"comment": "Projected, Quadrilateralized Spherical Cube on D_MARS_2000, front",
-        "srsDef": "+proj=qsc +units=m +a=3396190 +b=3376200 +lat_0=0 +lon_0=0 +wktext"
+        "srsDef": "+proj=qsc +units=m +a=3396190 +b=3376200 +lat_0=0 +lon_0=0 +wktext",
         "type": "projected"
     },
 
     "qsc-right-dmars2000": {
     	"comment": "Projected, Quadrilateralized Spherical Cube on D_MARS_2000, right",
-        "srsDef": "+proj=qsc +units=m +a=3396190 +b=3376200 +lat_0=0 +lon_0=90 +wktext"
+        "srsDef": "+proj=qsc +units=m +a=3396190 +b=3376200 +lat_0=0 +lon_0=90 +wktext",
         "type": "projected"
     },
 
     "qsc-back-dmars2000": {
     	"comment": "Projected, Quadrilateralized Spherical Cube on D_MARS_2000, back",
-        "srsDef": "+proj=qsc +units=m +a=3396190 +b=3376200 +lat_0=0 +lon_0=180 +wktext"
+        "srsDef": "+proj=qsc +units=m +a=3396190 +b=3376200 +lat_0=0 +lon_0=180 +wktext",
         "type": "projected"
     },
 
     "qsc-left-dmars2000": {
     	"comment": "Projected, Quadrilateralized Spherical Cube on D_MARS_2000, left",
-        "srsDef": "+proj=qsc +units=m +a=3396190 +b=3376200 +lat_0=0 +lon_0=-90 +wktext"
+        "srsDef": "+proj=qsc +units=m +a=3396190 +b=3376200 +lat_0=0 +lon_0=-90 +wktext",
         "type": "projected"
     },
 
     "qsc-top-dmars2000": {
     	"comment": "Projected, Quadrilateralized Spherical Cube on D_MARS_2000, top",
-        "srsDef": "+proj=qsc +units=m +a=3396190 +b=3376200 +lat_0=90 +lon_0=0 +wktext"
+        "srsDef": "+proj=qsc +units=m +a=3396190 +b=3376200 +lat_0=90 +lon_0=0 +wktext",
         "type": "projected"
     },
 
     "qsc-bottom-dmars2000": {
     	"comment": "Projected, Quadrilateralized Spherical Cube on D_MARS_2000, bottom",
-        "srsDef": "+proj=qsc +units=m +a=3396190 +b=3376200 +lat_0=-90 +lon_0=0 +wktext"
+        "srsDef": "+proj=qsc +units=m +a=3396190 +b=3376200 +lat_0=-90 +lon_0=0 +wktext",
         "type": "projected"
     },
 
