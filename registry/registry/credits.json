@@ -4,6 +4,7 @@
     "osm":          { "id": 3, "notice": "OpenStreetMap contributors"},
     "here":         { "id": 4, "notice": "HERE" },
     "microsoft":    { "id": 5, "notice": "Microsoft Corporation" },
+    "basemap-at":   { "id": 6, "notice": "Data source: [http://www.basemap.at/ www.basemap.at]", "copyrighted": false } 
 
     "visionmap":    { "id": 100, "notice": "VisionMap, Ltd", "url": "http://www.visionmap.com/"},
     "interatlas":   { "id": 101, "notice": "INTERATLAS™, used by permission." },
