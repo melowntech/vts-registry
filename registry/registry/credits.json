@@ -4,12 +4,14 @@
     "osm":          { "id": 3, "notice": "OpenStreetMap contributors"},
     "here":         { "id": 4, "notice": "HERE" },
     "microsoft":    { "id": 5, "notice": "Microsoft Corporation" },
-    "basemap-at":   { "id": 6, "notice": "Data source: [http://www.basemap.at/ www.basemap.at]", "copyrighted": false }, 
     "messenger-asu": { "id": 7, "notice": "MESSENGER Team, Arizona State University", "copyrighted": false },
-    "usgs-asc": { "id": 8, "notice" : "USGS Astrogeology Science Center", "copyrighted": false},
+    "usgs-asc":     { "id": 8, "notice" : "USGS Astrogeology Science Center", "copyrighted": false},
 
     "visionmap":    { "id": 100, "notice": "VisionMap, Ltd", "url": "http://www.visionmap.com/"},
     "interatlas":   { "id": 101, "notice": "INTERATLAS™, used by permission." },
     "fotomapy":     { "id": 102, "notice": "Fotomapy sp. z o.o." },
-    "seznamcz":     { "id": 103, "notice": "Seznam.cz, a.s." }
+    "seznamcz":     { "id": 103, "notice": "Seznam.cz, a.s." },
+    "basemap-at":   { "id": 104, "notice": "Data source: [http://www.basemap.at/ www.basemap.at]", "copyrighted": false },
+    "lvg-by":       { "id": 105, "notice": "Landesamt für Digitalisierung, Breitband und Vermessung Bayern", "copyrighted": false },
+    "eurosense":    { "id": 106, "notice" : "Eurosense, Geodis" }
 }

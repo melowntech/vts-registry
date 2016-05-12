@@ -19,7 +19,7 @@
     "mapycz": {
         "id" : 120,
         "type" : "raster",
-        "url" : "http://m{alt(1,2,3,4)}.mapserver.mapy.cz/ophoto-m/{lod}-{x}-{y}",
+        "url" : "http://m{alt(1,2,3,4)}.mapserver.mapy.cz/ophoto-m/{loclod}-{locx}-{locy}",
         "lodRange" : [0,20],
         "tileRange" : [[0,0],[0,0]],
         "credits" : [ "seznamcz" ]

@@ -148,6 +148,7 @@
                 {
                     "id": { "lod": 1, "position": [0,1] },
                     "srs": "steren-wgs84",
+                    "externalTexture": true,
                     "extents": {
                         "ll": [278600,278600],
                         "ur": [3721400,3721400]
@@ -158,6 +159,7 @@
                 {
                     "id": { "lod": 1, "position": [1,0] },
                     "srs": "steres-wgs84",
+                    "externalTexture": true,
                     "extents": {
                         "ll": [278600,278600],
                         "ur": [3721400,3721400]
