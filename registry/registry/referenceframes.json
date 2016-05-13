@@ -256,7 +256,7 @@
 
     {
         "version" : 1,
-        "id": "mars_mpc",
+        "id": "mars-mpc",
         "description": "Mars minus polar caps (85.1S to 85.1N)",
 
         "model": {
@@ -366,6 +366,80 @@
             "metaBinaryOrder": 5
         }
     },
+
+    {
+        "version" : 1,
+        "id": "mercury-provisional",
+        "description": "Mercury, provisional reference frame inspired by Melown 2015",
+
+        "model": {
+            "physicalSrs": "geocentric-dmercury2000",
+            "navigationSrs": "geographic-dmercury2000",
+            "publicSrs": "geographic-dmercury2000"
+        },
+
+        "division": {
+            "extents": {
+                "ll": [-3000000,-3000000,-3000000],
+                "ur": [-3000000,-3000000,-3000000] },
+            "heightRange": [-6000,5000],
+            "nodes": [
+                {
+                    "id": { "lod": 0, "position": [0,0] },
+                    "srs": "eqc-dmercury2000",
+                    "extents": {
+                        "ll": [-7664543.59696302,-3832271.79848151],
+                        "ur": [7664543.59696302,3832271.79848151] },
+                    "partitioning": {
+                        "00" : {
+                            "ll": [-20037508.3428,-3621544.91390969],
+                            "ur": [20037508.3428,3621544.91390969] },
+                        "01" : {
+                            "ll": [-20037508.3428,3621544.91390969],
+                            "ur": [20037508.3428,3832271.79848151] },
+                        "10" : {
+                            "ll": [-20037508.3428,-3832271.79848151],
+                            "ur": [20037508.3428,-3621544.91390969] }
+                    }
+                },
+
+                {
+                    "id": { "lod": 1, "position": [0,0] },
+                    "srs": "merc-dmercury2000",
+                    "externalTexture": true,
+                    "extents": {
+                        "ll": [-7664543.59696302,-7664543.59696302],
+                        "ur": [7664543.59696302,7664543.59696302] },
+                    "partitioning": "bisection"
+                },
+
+                {
+                    "id": { "lod": 1, "position": [0,1] },
+                    "srs": "steren-dmercury2000",
+                    "extents": {
+                        "ll": [-659961.0498,-659961.0498],
+                        "ur": [659961.0498,659961.0498]
+                    },
+                    "partitioning": "bisection"
+                },
+
+                {
+                    "id": { "lod": 1, "position": [1,0] },
+                    "srs": "steres-dmercury2000",
+                    "extents": {
+                        "ll": [-659961.0498,-659961.0498],
+                        "ur": [659961.0498,659961.0498]
+                    },
+                    "partitioning": "bisection"
+                }
+            ]
+        },
+
+        "parameters": {
+            "metaBinaryOrder": 5
+        }
+    },
+
 
     {
         "version" : 1,
