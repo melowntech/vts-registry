@@ -13,5 +13,6 @@
     "seznamcz":     { "id": 103, "notice": "Seznam.cz, a.s." },
     "basemap-at":   { "id": 104, "notice": "Data source: [http://www.basemap.at/ www.basemap.at]", "copyrighted": false },
     "lvg-by":       { "id": 105, "notice": "Landesamt für Digitalisierung, Breitband und Vermessung Bayern", "copyrighted": false },
-    "eurosense":    { "id": 106, "notice" : "Eurosense, Geodis" }
+    "eurosense":    { "id": 106, "notice": "Eurosense, Geodis" },
+    "vermessung-avt":{ "id": 107, "notice": "Vermessung AVT ZT-GmbH" }
 }
