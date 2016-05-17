@@ -4,7 +4,7 @@
     "osm":          { "id": 3, "notice": "OpenStreetMap contributors"},
     "here":         { "id": 4, "notice": "HERE" },
     "microsoft":    { "id": 5, "notice": "Microsoft Corporation" },
-    "messenger-asu": { "id": 7, "notice": "MESSENGER Team, Arizona State University", "copyrighted": false },
+    "messenger-asu": { "id": 7, "notice": "Applied Coherent Technology Corporation", "copyrighted": false },
     "usgs-asc":     { "id": 8, "notice" : "USGS Astrogeology Science Center", "copyrighted": false},
 
     "visionmap":    { "id": 100, "notice": "VisionMap, Ltd", "url": "http://www.visionmap.com/"},
