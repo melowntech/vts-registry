@@ -14,5 +14,6 @@
     "basemap-at":   { "id": 104, "notice": "Data source: [http://www.basemap.at/ www.basemap.at]", "copyrighted": false },
     "lvg-by":       { "id": 105, "notice": "Landesamt für Digitalisierung, Breitband und Vermessung Bayern", "copyrighted": false },
     "eurosense":    { "id": 106, "notice": "Eurosense, Geodis" },
-    "vermessung-avt":{ "id": 107, "notice": "Vermessung AVT ZT-GmbH" }
+    "vermessung-avt":{ "id": 107, "notice": "Vermessung AVT ZT-GmbH" },
+    "melown":       { "id": 108, "notice": "Melown Technologies" }
 }
