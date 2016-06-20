@@ -1,3 +1,9 @@
+ctt-vts-registry (1.9) citationtech-wheezy; urgency=low
+
+  * Mercury reference frame. 
+
+ -- Tomas Kavan <tomas.kavan@citationtech.net>  Wed, 18 May 2016 11:03:44 +0200
+
 ctt-vts-registry (1.8) citationtech-wheezy; urgency=low
 
   * Fixed webmerc extents in melown2015.
