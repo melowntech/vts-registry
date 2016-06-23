@@ -10,7 +10,7 @@
     "microsoftsat": {
         "id" : 110,
         "type" : "raster",
-        "url" : "http://ecn.t{ms_digit(x,y)}.tiles.virtualearth.net/tiles/a{quad(lod,x,y)}.jpeg?g=441&mkt=en-us&n=z",
+        "url" : "http://ecn.t{ms_digit(locx,locy)}.tiles.virtualearth.net/tiles/a{quad(loclod,locx,locy)}.jpeg?g=441&mkt=en-us&n=z",
         "lodRange" : [0,21],
         "tileRange" : [[0,0],[0,0]],
         "credits" : [ "microsoft" ]
