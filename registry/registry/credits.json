@@ -15,5 +15,6 @@
     "lvg-by":       { "id": 105, "notice": "Landesamt für Digitalisierung, Breitband und Vermessung Bayern", "copyrighted": false },
     "eurosense":    { "id": 106, "notice": "Eurosense, Geodis" },
     "vermessung-avt":{ "id": 107, "notice": "Vermessung AVT ZT-GmbH" },
-    "melown":       { "id": 108, "notice": "Melown Technologies" }
+    "extravilan1":  { "id": 108, "notice": "Melown Technologies" },
+    "melown":       { "id": 109, "notice": "Melown Technologies" }
 }
