@@ -1,3 +1,21 @@
+ctt-vts-registry (1.12) citationtech-wheezy; urgency=low
+
+  * Credits fix 
+
+ -- Ladislav Horky <ladislav.horky@citationtech.net>  Tue, 21 Jun 2016 14:25:09 +0200
+
+ctt-vts-registry (1.11) citationtech-wheezy; urgency=low
+
+  * Melown Technologies credits II  
+
+ -- Ladislav Horky <ladislav.horky@citationtech.net>  Tue, 21 Jun 2016 14:21:15 +0200
+
+ctt-vts-registry (1.10) citationtech-wheezy; urgency=low
+
+  * Melown Technologies credits, AVT credits.
+
+ -- Ladislav Horky <ladislav.horky@citationtech.net>  Mon, 20 Jun 2016 16:04:03 +0200
+
 ctt-vts-registry (1.9) citationtech-wheezy; urgency=low
 
   * Mercury reference frame. 
