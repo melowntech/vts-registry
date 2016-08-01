@@ -1,3 +1,9 @@
+ctt-vts-registry (1.14) citationtech-wheezy; urgency=low
+
+  * New credits. 
+
+ -- Ladislav Horky <ladislav.horky@citationtech.net>  Mon, 01 Aug 2016 17:18:49 +0200
+
 ctt-vts-registry (1.13) citationtech-wheezy; urgency=low
 
   * Updated boundlayers.

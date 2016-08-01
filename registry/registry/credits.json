@@ -18,5 +18,6 @@
     "extravilan1":  { "id": 108, "notice": "Melown Technologies SE" },
     "melown":       { "id": 109, "notice": "{copy}{Y} Melown Technologies SE" },
     "jonathan":	    { "id": 110, "notice": "{copy}2005-16 Jonathan de Ferranti" },
-    "geodis":       { "id": 111, "notice": "{copy}GEODIS Brno" }
+    "geodis":       { "id": 111, "notice": "{copy}GEODIS" },
+    "topgis":       { "id": 112, "notice": "{copy}TopGis" }
 }
