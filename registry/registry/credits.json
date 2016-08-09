@@ -20,5 +20,17 @@
     "jonathan":	    { "id": 110, "notice": "{copy}2005-16 Jonathan de Ferranti" },
     "geodis":       { "id": 111, "notice": "{copy}GEODIS" },
     "topgis":       { "id": 112, "notice": "{copy}TopGis" },
-    "mapzen":       { "id": 113, "notice": "Mapzen" }
+    "mapzen":       { "id": 113, "notice": "Mapzen" },
+
+    "airphrame":    { "id": 114, "notice": "{copy}{Y} AIRPHRAME INC"},
+    "checkterra":   { "id": 115, "notice": "{copy} CheckTerra s.r.o."},
+    "upvision":     { "id": 116, "notice": "{copy} UpVision s.r.o."},
+    "flying-detection":   { "id": 117, "notice": "{copy} Flying Detection"},
+    "pryshtina":    { "id": 118, "notice": "{copy} Prishtina Municipality"},
+    "primis":       { "id": 119, "notice": "{copy} PRIMIS s.r.o."},
+    "3dgang":       { "id": 120, "notice": "{copy} 3D gang s.r.o."},
+    "aerodata":     { "id": 121, "notice": "{copy} Aerodata International Surveys"},
+    "aventics":     { "id": 122, "notice": "{copy} Avetics Global Pte Ltd"},
+    "modri-planet": { "id": 123, "notice": "{copy} Modri Planet d.o.o."},
+    "geemte-rotterdam":   { "id": 124, "notice": "{copy} Gemeente Rotterdam"}
 }
