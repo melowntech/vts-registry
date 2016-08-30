@@ -1,3 +1,9 @@
+ctt-vts-registry (1.15) citationtech-wheezy; urgency=low
+
+  * Added credits for all clients. 
+
+ -- Ladislav Horky <ladislav.horky@citationtech.net>  Wed, 10 Aug 2016 17:35:51 +0200
+
 ctt-vts-registry (1.14) citationtech-wheezy; urgency=low
 
   * New credits. 
