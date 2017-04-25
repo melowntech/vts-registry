@@ -1,0 +1,5 @@
+vts-registry (1.0) melown-xenial; urgency=low
+
+  * Initial release for Ubuntu/Xenial.
+
+ -- Vaclav Blazek <vaclav.blazek@melown.com>  Tue, 25 Apr 2017 16:55:34 +0200
