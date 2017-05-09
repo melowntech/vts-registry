@@ -1,0 +1,14 @@
+Source: vts-registry
+Section: misc
+Priority: extra
+Maintainer: Vaclav Blazek <vaclav.blazek@melown.com>
+Build-Depends: debhelper (>= 9.20150101+deb8u2)
+               , gawk
+Standards-Version: 3.8.4
+Homepage: https://www.github.com/Melown/
+
+Package: vts-registry
+Architecture: any
+Depends: ${misc:Depends}
+Description: VTS registry
+ Registry of reference frames, SRS's, bound layers, credits etc.
