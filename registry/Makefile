@@ -1,1 +1,1 @@
-buildsys/common/common.mk
+buildsys/cmake/cmake.mk

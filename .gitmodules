@@ -1,3 +1,6 @@
 [submodule "externals/buildsys/common"]
 	path = externals/buildsys/common
 	url = https://github.com/Melown/buildsys-common.git
+[submodule "externals/buildsys/cmake"]
+	path = externals/buildsys/cmake
+	url = https://github.com/Melown/buildsys-cmake.git

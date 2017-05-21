@@ -1,15 +1,42 @@
 #!/usr/bin/make -f
-# -*- makefile -*-
+# -*- gnumakefile -*-
 
-# default rule
+PACKAGE_VERSION=$(shell dpkg-parsechangelog | grep ^Version: | cut -d' ' -f2)
+
+# list of packages to build
+PACKAGES=REGISTRY
+
+# package names
+DEB_PACKAGE_REGISTRY=ctt-vts-registry
+
+PREFIX=/opt/vts
+
+# use this build directory
+DEB_BUILDDIR=obj-$(DEB_BUILD_GNU_TYPE)
+# install components
+INSTALL_COMPONENTS_REGISTRY=main
+
+# add settings here
+CMAKE_FLAGS =  \
+	-DCMAKE_INSTALL_PREFIX:PATH=$(PREFIX)
+
+# default rule; tell debhelper we use CMake
 %:
-	dh $@
+	dh -Scmake -B$(DEB_BUILDDIR) --parallel -O--version-info $@
 
-# install package
+# override configuration
+override_dh_auto_configure:
+	dh_auto_configure -- $(CMAKE_FLAGS)
+
+# custom installation
+override_dh_auto_install:
+	$(foreach package, $(PACKAGES) \
+	  , $(foreach component, $(INSTALL_COMPONENTS_$(package)) \
+		  , DESTDIR=debian/$(DEB_PACKAGE_$(package)) \
+			cmake -DCOMPONENT=$(component) \
+			    -P $(DEB_BUILDDIR)/cmake_install.cmake;))
 
 # ignore these:
-override_dh_auto_clean:
-override_dh_auto_build:
 override_dh_auto_test:
 override_dh_installcatalogs:
 override_dh_installcron:
@@ -36,4 +63,3 @@ override_dh_icons:
 override_dh_perl:
 override_dh_usrlocal:
 override_dh_installexamples:
-override_dh_auto_configure:

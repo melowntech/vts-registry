@@ -1,2 +1,0 @@
-registry/*.json /opt/vts-seznamcz/etc/registry
-registry/geoidgrid/*.jpg /opt/vts-seznamcz/etc/registry/geoidgrid
