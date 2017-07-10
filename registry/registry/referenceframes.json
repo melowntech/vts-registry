@@ -67,40 +67,6 @@
 
     {
         "version" : 1,
-        "id": "webmerc-unprojected",
-        "description": "Earth, WGS84 spheroid based on Pseudo/Web Mercator",
-
-        "model": {
-            "physicalSrs": "geocentric-wgs84",
-            "navigationSrs": "geographic-wgs84",
-            "publicSrs": "geographic-wgs84-egm96"
-        },
-
-        "division": {
-            "extents" : {
-                "ll": [-7500000,-7500000,-7500000],
-                "ur": [7500000,7500000,7500000] },
-            "heightRange" : [-12500,9500],
-            "nodes": [
-                {
-                    "id": { "lod": 0, "position": [0,0] },
-                    "srs": "pseudomerc",
-                    "externalTexture": true,
-                    "extents": {
-                        "ll": [-20037508.342789,-20037508.342789],
-                        "ur": [20037508.342789,20037508.342789] },
-                    "partitioning": "bisection"
-                }
-            ]
-        },
-
-        "parameters": {
-            "metaBinaryOrder": 5
-        }
-    },
-
-    {
-        "version" : 1,
         "id": "melown2015",
         "description": "Earth, global geographic reference frame (Melown 2015)",
 
@@ -245,40 +211,6 @@
                         "ur": [6378137,6378137] },
                     "partitioning": "bisection",
                     "externalTexture": true
-                }
-            ]
-        },
-
-        "parameters": {
-            "metaBinaryOrder": 5
-        }
-    },
-
-    {
-        "version" : 1,
-        "id": "mars-mpc",
-        "description": "Mars minus polar caps (85.1S to 85.1N)",
-
-        "model": {
-            "physicalSrs": "geocentric-dmars2000",
-            "navigationSrs": "geographic-dmars2000",
-            "publicSrs": "geographic-dmars2000"
-        },
-
-        "division": {
-
-            "extents" : {
-                "ll": [-350000,-350000,-3500000],
-                "ur": [3500000,3500000,3500000] },
-            "heightRange" : [-5000,30000],
-            "nodes": [
-                {
-                    "id": { "lod": 0, "position": [0,0] },
-                    "srs": "merc-dmars2000",
-                    "extents": {
-                        "ll": [-10669445.5541951,-10669445.5541951],
-                        "ur": [10669445.5541951,10669445.5541951] },
-                    "partitioning": "bisection"
                 }
             ]
         },
@@ -440,69 +372,5 @@
         "parameters": {
             "metaBinaryOrder": 5
         }
-    },
-
-
-    {
-        "version" : 1,
-        "id": "svy21",
-        "description": "Singapore and 4.7 deg surroundings, Local cadastre",
-
-        "model": {
-            "physicalSrs": "singapore-svy21-va",
-            "navigationSrs": "singapore-svy21-va",
-            "publicSrs": "geographic-wgs84-egm96"
-        },
-
-        "division": {
-            "extents" : {
-                "ll": [-496286.358, -485543.428, -500], "ur": [552289.642, 563032.572, 7000] },
-            "heightRange": [-500,7000],
-            "nodes": [
-                {
-                    "id": { "lod": 0, "position": [0,0] },
-                    "srs": "singapore-svy21",
-                    "extents": {
-                        "ll": [-496286.358, -485543.428], "ur": [552289.642, 563032.572] },
-                    "partitioning": "bisection"
-                }
-            ]
-        },
-
-        "parameters": {
-            "metaBinaryOrder": 5
-        }
-    },
-
-    {
-        "version" : 1,
-        "id": "ppspace-utm11n",
-        "description": "UTM11N planar reference frame, ppspace equivalent for zone 11",
-
-        "model": {
-            "physicalSrs": "utm11n-va",
-            "navigationSrs": "utm11n-va",
-            "publicSrs": "geographic_wgs84_egm96"
-        },
-
-        "division": {
-            "extents" : {
-                "ll": [-3700000,1300000, -500], "ur": [4688608,9688608,7000] },
-            "heightRange": [-500,7000],
-            "nodes": [
-                {
-                    "id": { "lod": 0, "position": [0,0] },
-                    "srs": "utm11n",
-                    "extents": {
-                        "ll": [-3700000,1300000], "ur": [4688608,9688608] },
-                    "partitioning": "bisection"
-                }
-            ]
-        },
-
-        "parameters": {
-            "metaBinaryOrder": 5
-        }
     }
-
 ]
