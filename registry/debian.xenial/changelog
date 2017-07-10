@@ -1,3 +1,9 @@
+vts-registry (1.1) melown-xenial; urgency=medium
+
+  * Removed obsolete or nonsense reference frames.
+
+ -- Vaclav Blazek <vaclav.blazek@citationtech.net>  Mon, 10 Jul 2017 17:37:09 +0200
+
 vts-registry (1.0) melown-xenial; urgency=low
 
   * Initial release for Ubuntu/Xenial.
