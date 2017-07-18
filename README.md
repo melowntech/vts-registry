@@ -43,6 +43,12 @@ The `deb` package is stored in root directory and you can install it system-wide
 sudo dpkg -i ../vts-registry_1.0_amd64.deb
 ```
 
+## Install from Melown repository
+
+We provide precompiled packages for some popular linux distributions. See [Melown OSS package repository
+](http://cdn.melown.com/packages/) for more information. This repository contains all needed packages to run
+VTS OSS software.
+
 ## How to contribute
 
 Check the [CONTRIBUTING.md](CONTRIBUTING.md) file.
