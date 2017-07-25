@@ -1,11 +1,10 @@
 Source: vts-registry
-Section: misc
+Section: non-free/citationtech
 Priority: extra
-Maintainer: Vaclav Blazek <vaclav.blazek@melown.com>
-Build-Depends: debhelper (>= 9.20150101+deb8u2)
-               , gawk
+Maintainer: Vaclav Blazek <vaclav.blazek@citationtech.net>
+Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.8.4
-Homepage: https://www.github.com/Melown/
+Homepage: https://www.melown.com/maps
 
 Package: vts-registry
 Architecture: any

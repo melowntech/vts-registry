@@ -1,3 +1,9 @@
+vts-registry (1.18) citationtech-wheezy; urgency=low
+
+  * Version bump for unified debian packaging.
+
+ -- Vaclav Blazek <vaclav.blazek@citationtech.net>  Tue, 25 Jul 2017 15:35:00 +0200
+
 ctt-vts-registry (1.17) citationtech-wheezy; urgency=low
 
   * Fixed Primis credits.

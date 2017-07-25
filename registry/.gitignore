@@ -3,4 +3,3 @@ build
 build.*
 lib
 obj-*
-debian
