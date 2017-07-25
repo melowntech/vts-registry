@@ -1,0 +1,12 @@
+m4_dnl ###############################################################
+m4_dnl ## this defines footer to be inserted at the end of control file
+m4_dnl ###############################################################
+m4_dnl
+m4_define({{{VAR_footer}}},
+{{{
+Package: ctt-vts-registry
+Architecture: any
+Depends: vts-registry
+Description: VTS registry (transitional package)
+ Package rename vts-registry -> vts-registry}}}
+)m4_dnl
