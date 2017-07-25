@@ -1,40 +1,26 @@
 #!/usr/bin/make -f
 # -*- gnumakefile -*-
 
-PACKAGE_VERSION=$(shell dpkg-parsechangelog | grep ^Version: | cut -d' ' -f2)
+# include common debian support
+include buildsys/common/include/debian.mk
 
 # list of packages to build
 PACKAGES=REGISTRY
 
 # package names
-DEB_PACKAGE_REGISTRY=ctt-vts-registry
+DEB_PACKAGE_REGISTRY=$(DEB_SOURCE)
 
-PREFIX=/opt/vts
-
-# use this build directory
-DEB_BUILDDIR=obj-$(DEB_BUILD_GNU_TYPE)
 # install components
 INSTALL_COMPONENTS_REGISTRY=main
+
+PREFIX=/opt/vts
 
 # add settings here
 CMAKE_FLAGS =  \
 	-DCMAKE_INSTALL_PREFIX:PATH=$(PREFIX)
 
-# default rule; tell debhelper we use CMake
-%:
-	dh -Scmake -B$(DEB_BUILDDIR) --parallel -O--version-info $@
-
-# override configuration
-override_dh_auto_configure:
-	dh_auto_configure -- $(CMAKE_FLAGS)
-
-# custom installation
-override_dh_auto_install:
-	$(foreach package, $(PACKAGES) \
-	  , $(foreach component, $(INSTALL_COMPONENTS_$(package)) \
-		  , DESTDIR=debian/$(DEB_PACKAGE_$(package)) \
-			cmake -DCOMPONENT=$(component) \
-			    -P $(DEB_BUILDDIR)/cmake_install.cmake;))
+# include cmake debian support
+include buildsys/cmake/include/debian.mk
 
 # ignore these:
 override_dh_auto_test:
