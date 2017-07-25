@@ -1,4 +1,6 @@
-*.deb
-*.changes
-*.upload
+/*.deb
+/*.changes
+/*.upload
+/*.dsc
+/*.tar.gz
 .*.*~
