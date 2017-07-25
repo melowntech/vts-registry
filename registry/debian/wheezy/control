@@ -6,7 +6,7 @@ m4_define({{{VAR_footer}}},
 {{{
 Package: ctt-vts-registry
 Architecture: any
-Depends: vts-registry
+Depends: vts-registry (= ${binary:Version})
 Description: VTS registry (transitional package)
  Package rename vts-registry -> vts-registry}}}
 )m4_dnl

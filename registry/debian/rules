@@ -13,11 +13,11 @@ DEB_PACKAGE_REGISTRY=$(DEB_SOURCE)
 # install components
 INSTALL_COMPONENTS_REGISTRY=main
 
+# installation prefix; automatically passed to CMake
 PREFIX=/opt/vts
 
-# add settings here
-CMAKE_FLAGS =  \
-	-DCMAKE_INSTALL_PREFIX:PATH=$(PREFIX)
+# add CMake settings here
+CMAKE_FLAGS =
 
 # include cmake debian support
 include buildsys/cmake/include/debian.mk
