@@ -1,0 +1,9 @@
+m4_dnl ###############################################################
+m4_dnl ## Added at the end of control file
+m4_dnl ###############################################################
+
+Package: ctt-vts-registry
+Architecture: any
+Depends: vts-registry (= ${binary:Version})
+Description: VTS registry (transitional package)
+ Package rename vts-registry -> vts-registry
