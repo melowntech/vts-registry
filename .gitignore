@@ -1,5 +1,6 @@
 /*.deb
 /*.changes
+/*.buildinfo
 /*.upload
 /*.dsc
 /*.tar.gz
