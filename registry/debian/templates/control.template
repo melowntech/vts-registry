@@ -7,7 +7,7 @@ Standards-Version: 3.8.4
 Homepage: https://www.melown.com/maps
 
 Package: vts-registry
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}
 Description: VTS registry
  Registry of reference frames, SRS's, bound layers, credits etc.
