@@ -3,7 +3,7 @@
         "version" : 1,
         "id": "ppspace",
         "description": "Europe, legacy UTM33N planar reference frame (Seznam.cz 05)",
-        "bodyId": "Earth",
+        "body": "Earth",
 
         "model": {
             "physicalSrs": "utm33n-va",
@@ -36,7 +36,7 @@
         "version" : 1,
         "id": "webmerc-projected",
         "description": "Earth, planar Pseudo/Web Mercator",
-        "bodyId": "Earth",
+        "body": "Earth",
 
         "model": {
             "physicalSrs": "pseudomerc-va",
@@ -71,7 +71,7 @@
         "version" : 1,
         "id": "melown2015",
         "description": "Earth, global geographic reference frame (Melown 2015)",
-        "bodyId": "Earth",
+        "body": "Earth",
 
         "model": {
             "physicalSrs": "geocentric-wgs84",
@@ -148,7 +148,7 @@
         "version" : 1,
         "id": "earth-qsc",
         "description": "Earth, WGS84 based quadrilateralized spherical cube",
-        "bodyId": "Earth",
+        "body": "Earth",
 
         "model": {
             "physicalSrs": "geocentric-wgs84",
@@ -228,7 +228,7 @@
         "version" : 1,
         "id": "mars-qsc",
         "description": "Mars, D_MARS_2000 based quadrilateralized spherical cube",
-        "bodyId": "Mars",
+        "body": "Mars",
 
         "model": {
             "physicalSrs": "geocentric-dmars2000",
@@ -308,7 +308,7 @@
         "version" : 1,
         "id": "mercury-provisional",
         "description": "Mercury, provisional reference frame inspired by Melown 2015",
-        "bodyId": "Mercury",
+        "body": "Mercury",
 
         "model": {
             "physicalSrs": "geocentric-dmercury2000",

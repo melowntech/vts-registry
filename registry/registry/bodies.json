@@ -1,17 +1,25 @@
 {
+    "Sun": {
+        "comment": "Sol, G2V main-sequence star."
+        , "class": "star"
+    },
+
     "Venus": {
         "comment": "Venus, Sol I, N-class planet.",
-        "class": "planet"
+        "class": "planet",
+        "parent": "Sun"
     },
 
     "Mercury": {
         "comment": "Mercury, Sol II, B-class planet.",
-        "class": "planet"
+        "class": "planet",
+        "parent": "Sun"
     },
 
     "Earth": {
         "comment": "Earth, Sol III, M-class planet.",
         "class": "planet",
+        "parent": "Sun",
 
         "atmosphere": {
         }
@@ -33,6 +41,7 @@
     "Mars": {
         "comment": "Mars, Sol IV, K-class planet.",
         "class": "planet",
+        "parent": "Sun",
 
         "atmosphere": {
         }
@@ -52,7 +61,8 @@
 
     "Jupiter": {
         "comment": "Jupiter, Sol V, J-class planet.",
-        "class": "planet"
+        "class": "planet",
+        "parent": "Sun"
     },
 
         "Io": {
@@ -78,7 +88,8 @@
 
     "Saturn": {
         "comment": "Saturn, Sol VI, J-class planet.",
-        "class": "planet"
+        "class": "planet",
+        "parent": "Sun"
     },
 
         "Titan": {
@@ -93,11 +104,13 @@
 
     "Uranus": {
         "comment": "Uranus, Sol VII, J-class planet.",
-        "class": "planet"
+        "class": "planet",
+        "parent": "Sun"
     },
 
     "Neptune": {
         "comment": "Neptune, Sol VIII, J-class planet.",
-        "class": "planet"
+        "class": "planet",
+        "parent": "Sun"
     }
 }
