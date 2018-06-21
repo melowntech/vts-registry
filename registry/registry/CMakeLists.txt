@@ -2,7 +2,8 @@ set(registry_MAIN
   boundlayers.json
   credits.json
   referenceframes.json
-  srs.json)
+  srs.json
+  bodies.json)
 
 # install main registry files
 install(FILES ${registry_MAIN}

@@ -1,3 +1,9 @@
+vts-registry (1.20) citationtech-wheezy; urgency=medium
+
+  * Body support.
+
+ -- Vaclav Blazek <vaclav.blazek@melown.com>  Thu, 21 Jun 2018 19:50:54 +0200
+
 vts-registry (1.19) citationtech-wheezy; urgency=low
 
   * Fixed install path.
