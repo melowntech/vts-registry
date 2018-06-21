@@ -1,0 +1,103 @@
+{
+    "Venus": {
+        "comment": "Venus, Sol I, N-class planet.",
+        "class": "planet"
+    },
+
+    "Mercury": {
+        "comment": "Mercury, Sol II, B-class planet.",
+        "class": "planet"
+    },
+
+    "Earth": {
+        "comment": "Earth, Sol III, M-class planet.",
+        "class": "planet",
+
+        "atmosphere": {
+        }
+    },
+
+        "Moon": {
+            "comment": "Earth's only natural satellite.",
+            "class": "moon",
+            "parent": "Earth"
+        },
+
+        "ISS": {
+            "comment": "International Space Station",
+            "class": "space-station",
+            "parent": "Earth"
+        },
+
+
+    "Mars": {
+        "comment": "Mars, Sol IV, K-class planet.",
+        "class": "planet",
+
+        "atmosphere": {
+        }
+    },
+
+        "Phobos": {
+            "comment": "Mars I, larger Mars's moon.",
+            "class": "moon",
+            "parent": "Mars"
+        },
+        "Deimos": {
+            "comment": "Mars II, smaller Mars's moon.",
+            "class": "moon",
+            "parent": "Mars"
+        },
+
+
+    "Jupiter": {
+        "comment": "Jupiter, Sol V, J-class planet.",
+        "class": "planet"
+    },
+
+        "Io": {
+            "comment": "Jupiter I, Galilean moon.",
+            "class": "moon",
+            "parent": "Jupiter"
+        },
+        "Europa": {
+            "comment": "Jupiter II, Galilean moon.",
+            "class": "moon",
+            "parent": "Jupiter"
+        },
+        "Ganymede": {
+            "comment": "Jupiter III, Galilean moon.",
+            "class": "moon",
+            "parent": "Jupiter"
+        },
+        "Callisto": {
+            "comment": "Jupiter IV, Galilean moon.",
+            "class": "moon",
+            "parent": "Jupiter"
+        },
+
+    "Saturn": {
+        "comment": "Saturn, Sol VI, J-class planet.",
+        "class": "planet"
+    },
+
+        "Titan": {
+            "comment": "Saturn VI, largest Saturn's moon.",
+            "class": "moon",
+            "parent": "Saturn",
+
+            "atmosphere": {
+            }
+        },
+
+
+    "Uranus": {
+        "comment": "Uranus, Sol VII, J-class planet.",
+        "class": "planet"
+    },
+
+    "Neptune": {
+        "comment": "Neptune, Sol VIII, J-class planet.",
+        "class": "planet"
+    }
+}
