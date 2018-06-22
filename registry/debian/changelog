@@ -1,3 +1,9 @@
+vts-registry (1.21) citationtech-wheezy; urgency=medium
+
+  * Filled in atmosphere paraters for Earth and Mars
+
+ -- Vaclav Blazek <vaclav.blazek@melown.com>  Fri, 22 Jun 2018 13:53:32 +0200
+
 vts-registry (1.20) citationtech-wheezy; urgency=medium
 
   * Body support.
