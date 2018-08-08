@@ -21,6 +21,8 @@
         "class": "planet",
         "parent": "Sun",
 
+        "defaultGeoidGrid": "egm96_15.gtx",
+
         "atmosphere": {
             "thickness": 100000,
             "visibility": 100000,
