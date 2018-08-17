@@ -1,3 +1,9 @@
+vts-registry (1.23) citationtech-wheezy; urgency=medium
+
+  * Welcome Pluto to the family of reference frames.
+
+ -- Vaclav Blazek <vaclav.blazek@melown.com>  Fri, 17 Aug 2018 10:47:12 +0200
+
 vts-registry (1.22) citationtech-wheezy; urgency=medium
 
   * Added defaultGeoidGrid to Earth
