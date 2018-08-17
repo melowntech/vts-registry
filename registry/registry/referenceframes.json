@@ -378,5 +378,79 @@
         "parameters": {
             "metaBinaryOrder": 5
         }
+    },
+
+    {
+        "version" : 1,
+        "id": "pluto-qsc",
+        "description": "Pluto, quadrilateralized spherical cube",
+        "body": "Pluto",
+
+        "model": {
+            "physicalSrs": "geocentric-pluto",
+            "navigationSrs": "geographic-pluto",
+            "publicSrs": "geographic-pluto"
+        },
+
+        "division": {
+            "extents" : {
+                "ll": [-3500000,-3500000,-3500000],
+                "ur": [3500000,3500000,3500000] },
+            "heightRange" : [-10000,10000],
+            "nodes": [
+                {
+                    "id": { "lod": 2, "position": [1,1] },
+                    "srs": "qsc-front-pluto",
+                    "extents": {
+                        "ll": [-1188300,-1188300], "ur": [1188300,1188300] },
+                    "partitioning": "bisection",
+                    "externalTexture": true
+                },
+                {
+                    "id": { "lod": 2, "position": [2,1] },
+                    "srs": "qsc-right-pluto",
+                    "extents": {
+                        "ll": [-1188300,-1188300], "ur": [1188300,1188300] },
+                    "partitioning": "bisection",
+                    "externalTexture": true
+                },
+                {
+                    "id": { "lod": 2, "position": [3,1] },
+                    "srs": "qsc-back-pluto",
+                    "extents": {
+                        "ll": [-1188300,-1188300], "ur": [1188300,1188300] },
+                    "partitioning": "bisection",
+                    "externalTexture": true
+                },
+                {
+                    "id": { "lod": 2, "position": [0,1] },
+                    "srs": "qsc-left-pluto",
+                    "extents": {
+                        "ll": [-1188300,-1188300], "ur": [1188300,1188300] },
+                    "partitioning": "bisection",
+                    "externalTexture": true
+                },
+                {
+                    "id": { "lod": 2, "position": [1,0] },
+                    "srs": "qsc-top-pluto",
+                    "extents": {
+                        "ll": [-1188300,-1188300], "ur": [1188300,1188300] },
+                    "partitioning": "bisection",
+                    "externalTexture": true
+                },
+                {
+                    "id": { "lod": 2, "position": [1,2] },
+                    "srs": "qsc-bottom-pluto",
+                    "extents": {
+                        "ll": [-1188300,-1188300], "ur": [1188300,1188300] },
+                    "partitioning": "bisection",
+                    "externalTexture": true
+                }
+            ]
+        },
+
+        "parameters": {
+            "metaBinaryOrder": 5
+        }
     }
 ]

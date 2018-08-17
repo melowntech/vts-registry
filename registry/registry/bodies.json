@@ -122,5 +122,11 @@
         "comment": "Neptune, Sol VIII, J-class planet.",
         "class": "planet",
         "parent": "Sun"
+    },
+
+    "Pluto": {
+        "comment": "Pluto, dwarf planet.",
+        "class": "planet",
+        "parent": "Sun"
     }
 }

@@ -234,6 +234,53 @@
         "comment": "Projected, UTM 11N",
         "srsDef": "+proj=utm +zone=11 +datum=WGS84 +no_defs",
         "type": "projected"
-    }
+    },
 
+    "geographic-pluto": {
+        "comment": "Geographic, Pluto",
+        "srsDef": "+proj=longlat +a=1188300 +b=1188300 +no_defs",
+        "type": "geographic"
+    },
+
+    "geocentric-pluto": {
+        "comment": "Geocentric, Pluto",
+        "srsDef": "+proj=geocent +a=1188300 +b=1188300 +lon_0=0 +units=m +no_defs",
+        "type": "cartesian"
+    },
+
+    "qsc-front-pluto": {
+        "comment": "Projected, Quadrilateralized Spherical Cube on Pluto, front",
+        "srsDef": "+proj=qsc +units=m +a=1188300 +b=1188300 +lat_0=0 +lon_0=0 +wktext",
+        "type": "projected"
+    },
+
+    "qsc-right-pluto": {
+        "comment": "Projected, Quadrilateralized Spherical Cube on Pluto, right",
+        "srsDef": "+proj=qsc +units=m +a=1188300 +b=1188300 +lat_0=0 +lon_0=90 +wktext",
+        "type": "projected"
+    },
+
+    "qsc-back-pluto": {
+        "comment": "Projected, Quadrilateralized Spherical Cube on Pluto, back",
+        "srsDef": "+proj=qsc +units=m +a=1188300 +b=1188300   +lat_0=0 +lon_0=180 +wktext",
+        "type": "projected"
+    },
+
+    "qsc-left-pluto": {
+        "comment": "Projected, Quadrilateralized Spherical Cube on Pluto, left",
+        "srsDef": "+proj=qsc +units=m +a=1188300 +b=1188300 +lat_0=0 +lon_0=-90 +wktext",
+        "type": "projected"
+    },
+
+    "qsc-top-pluto": {
+        "comment": "Projected, Quadrilateralized Spherical Cube on Pluto, top",
+        "srsDef": "+proj=qsc +units=m +a=1188300 +b=1188300 +lat_0=90 +lon_0=0 +wktext",
+        "type": "projected"
+    },
+
+    "qsc-bottom-pluto": {
+        "comment": "Projected, Quadrilateralized Spherical Cube on Pluto, bottom",
+        "srsDef": "+proj=qsc +units=m +a=1188300 +b=1188300 +lat_0=-90 +lon_0=0 +wktext",
+        "type": "projected"
+    }
 }
