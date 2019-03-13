@@ -1,3 +1,10 @@
+vts-registry (1.24) citationtech-wheezy; urgency=medium
+
+  * Added tms-global-geodetic reference frame for Cesium Terrain Provider
+    support.
+
+ -- Vaclav Blazek <vaclav.blazek@melown.com>  Wed, 13 Mar 2019 16:55:20 +0100
+
 vts-registry (1.23) citationtech-wheezy; urgency=medium
 
   * Welcome Pluto to the family of reference frames.
