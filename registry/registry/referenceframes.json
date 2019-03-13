@@ -452,5 +452,57 @@
         "parameters": {
             "metaBinaryOrder": 5
         }
+    },
+
+    {
+        "version" : 1,
+        "id": "tms-global-geodetic",
+        "description": "Earth, TMS global-geodetic profile; intended only for Cesium Terrain Provider support",
+        "body": "Earth",
+
+        "model": {
+            "physicalSrs": "geocentric-wgs84",
+            "navigationSrs": "geographic-wgs84",
+            "publicSrs": "geographic-wgs84-egm96"
+        },
+
+        "division": {
+            "extents": {
+                "ll": [-7500000,-7500000,-7500000],
+                "ur": [7500000,7500000,7500000] },
+            "heightRange": [-12000,9500],
+            "nodes": [
+                {
+                    "id": { "lod": 1, "position": [0, 0] },
+                    "srs": "eqc-wgs84",
+                    "extents": {
+                        "ll": [-20037508.342789, -10018754.171394],
+                        "ur": [0, 10018754.171394] },
+                    "partitioning": "bisection",
+                    "externalTexture": true
+                },
+                {
+                    "id": { "lod": 1, "position": [1, 0] },
+                    "srs": "eqc-wgs84",
+                    "extents": {
+                        "ll": [0, -10018754.171394],
+                        "ur": [20037508.342789, 10018754.171394] },
+                    "partitioning": "bisection",
+                    "externalTexture": true
+                }
+            ]
+        },
+
+        "parameters": { "metaBinaryOrder": 5 },
+
+        "extensions": {
+            "tms": {
+                "rootId": { "lod": 1, "position": [0, 0] },
+                "flipY": true,
+                "physicalSrs": "geographic-wgs84",
+                "profile": "global-geodetic",
+                "projection": "EPSG:4326"
+            }
+        }
     }
 ]
