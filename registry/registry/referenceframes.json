@@ -64,6 +64,13 @@
 
         "parameters": {
             "metaBinaryOrder": 5
+        },
+
+        "extensions": {
+            "wmts": {
+                "projection": "urn:ogc:def:crs:EPSG::3857",
+                "wellKnownScaleSet": "urn:ogc:def:wkss:OGC:1.0:GoogleMapsCompatible"
+            }
         }
     },
 
@@ -141,6 +148,14 @@
 
         "parameters": {
             "metaBinaryOrder": 5
+        },
+
+        "extensions": {
+            "wmts": {
+                "projection": "urn:ogc:def:crs:EPSG::3857",
+                "wellKnownScaleSet": "urn:ogc:def:wkss:OGC:1.0:GoogleMapsCompatible",
+                "content": "pseudomerc"
+            }
         }
     },
 
@@ -502,6 +517,11 @@
                 "physicalSrs": "geographic-wgs84",
                 "profile": "global-geodetic",
                 "projection": "EPSG:4326"
+            },
+            "wmts": {
+                "projection": "urn:ogc:def:crs:OGC:2:84",
+                "content": "eqc-wgs84",
+                "extentsSrs": "geographic-wgs84"
             }
         }
     }
