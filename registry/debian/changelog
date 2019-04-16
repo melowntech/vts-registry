@@ -1,3 +1,9 @@
+vts-registry (1.25) citationtech-wheezy; urgency=medium
+
+  * Added WMTS extension.
+
+ -- Vaclav Blazek <vaclav.blazek@melown.com>  Wed, 17 Apr 2019 00:12:35 +0200
+
 vts-registry (1.24) citationtech-wheezy; urgency=medium
 
   * Added tms-global-geodetic reference frame for Cesium Terrain Provider
