@@ -7,7 +7,7 @@ bound layers, reference frames and other data.
 ## User documentation
 
 VTS-Registry user documentation is available at
-https://melown.readthedocs.io/
+https://vts-geospatial.org/
 
 
 ## Download, build and install
