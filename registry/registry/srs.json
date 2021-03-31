@@ -282,5 +282,41 @@
         "comment": "Projected, Quadrilateralized Spherical Cube on Pluto, bottom",
         "srsDef": "+proj=qsc +units=m +a=1188300 +b=1188300 +lat_0=-90 +lon_0=0 +wktext",
         "type": "projected"
+    },
+
+    "qsc-front-earth": {
+        "comment": "Projected, Quadrilateralized Spherical Cube on Earth, front",
+        "srsDef": "+proj=qsc +units=m +ellps=WGS84 +lat_0=0 +lon_0=0 +wktext",
+        "type": "projected"
+    },
+
+    "qsc-right-earth": {
+        "comment": "Projected, Quadrilateralized Spherical Cube on Earth, right",
+        "srsDef": "+proj=qsc +units=m +ellps=WGS84 +lat_0=0 +lon_0=90 +wktext",
+        "type": "projected"
+    },
+
+    "qsc-back-earth": {
+        "comment": "Projected, Quadrilateralized Spherical Cube on Earth, back",
+        "srsDef": "+proj=qsc +units=m +ellps=WGS84 +lat_0=0 +lon_0=180 +wktext",
+        "type": "projected"
+    },
+
+    "qsc-left-earth": {
+        "comment": "Projected, Quadrilateralized Spherical Cube on Earth, left",
+        "srsDef": "+proj=qsc +units=m +ellps=WGS84 +lat_0=0 +lon_0=-90 +wktext",
+        "type": "projected"
+    },
+
+    "qsc-top-earth": {
+        "comment": "Projected, Quadrilateralized Spherical Cube on Earth, top",
+        "srsDef": "+proj=qsc +units=m +ellps=WGS84 +lat_0=90 +lon_0=0 +wktext",
+        "type": "projected"
+    },
+
+    "qsc-bottom-earth": {
+        "comment": "Projected, Quadrilateralized Spherical Cube on Earth, bottom",
+        "srsDef": "+proj=qsc +units=m +ellps=WGS84 +lat_0=-90 +lon_0=0 +wktext",
+        "type": "projected"
     }
 }

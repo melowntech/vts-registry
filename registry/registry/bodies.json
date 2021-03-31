@@ -23,6 +23,12 @@
 
         "defaultGeoidGrid": "egm96_15.gtx",
 
+        "srs": {
+            "geocentric": "geocentric-wgs84",
+            "geographic": "geographic-wgs84",
+            "flags": [ "wgs84" ]
+        },
+
         "atmosphere": {
             "thickness": 100000,
             "visibility": 100000,

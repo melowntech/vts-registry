@@ -524,5 +524,79 @@
                 "extentsSrs": "geographic-wgs84"
             }
         }
+    },
+
+    {
+        "version" : 1,
+        "id": "earth-qsc",
+        "description": "Earth, quadrilateralized spherical cube",
+        "body": "Earth",
+
+        "model": {
+            "physicalSrs": "geocentric-wgs84",
+            "navigationSrs": "geographic-wgs84",
+            "publicSrs": "geographic-wgs84"
+        },
+
+        "division": {
+            "extents" : {
+                "ll": [-3500000,-3500000,-3500000],
+                "ur": [3500000,3500000,3500000] },
+            "heightRange" : [-10000,10000],
+            "nodes": [
+                {
+                    "id": { "lod": 2, "position": [1,1] },
+                    "srs": "qsc-front-earth",
+                    "extents": {
+                        "ll": [-1188300,-1188300], "ur": [1188300,1188300] },
+                    "partitioning": "bisection",
+                    "externalTexture": true
+                },
+                {
+                    "id": { "lod": 2, "position": [2,1] },
+                    "srs": "qsc-right-earth",
+                    "extents": {
+                        "ll": [-1188300,-1188300], "ur": [1188300,1188300] },
+                    "partitioning": "bisection",
+                    "externalTexture": true
+                },
+                {
+                    "id": { "lod": 2, "position": [3,1] },
+                    "srs": "qsc-back-earth",
+                    "extents": {
+                        "ll": [-1188300,-1188300], "ur": [1188300,1188300] },
+                    "partitioning": "bisection",
+                    "externalTexture": true
+                },
+                {
+                    "id": { "lod": 2, "position": [0,1] },
+                    "srs": "qsc-left-earth",
+                    "extents": {
+                        "ll": [-1188300,-1188300], "ur": [1188300,1188300] },
+                    "partitioning": "bisection",
+                    "externalTexture": true
+                },
+                {
+                    "id": { "lod": 2, "position": [1,0] },
+                    "srs": "qsc-top-earth",
+                    "extents": {
+                        "ll": [-1188300,-1188300], "ur": [1188300,1188300] },
+                    "partitioning": "bisection",
+                    "externalTexture": true
+                },
+                {
+                    "id": { "lod": 2, "position": [1,2] },
+                    "srs": "qsc-bottom-earth",
+                    "extents": {
+                        "ll": [-1188300,-1188300], "ur": [1188300,1188300] },
+                    "partitioning": "bisection",
+                    "externalTexture": true
+                }
+            ]
+        },
+
+        "parameters": {
+            "metaBinaryOrder": 5
+        }
     }
 ]
